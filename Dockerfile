@@ -19,4 +19,4 @@ VOLUME ["/opt/config/flume"]
 
 ADD start.sh /opt/flume/start.sh
 EXPOSE 44444
-ENTRYPOnIT  "/opt/flume/start.sh"
+ENTRYPOINT  "/opt/flume/start.sh"
